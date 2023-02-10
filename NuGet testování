@@ -10,3 +10,4 @@ dotnet test --logger:"html;LogFilePath=testresults.html;"
 Tento soubor script bude spouštět testy a uloží výsledek do složky TestResults v kořenovém adresáři v html.
 
 Na spoštění testů si můžeme stáhnout plugin Batch Runner. Pak stačí kliknout na bash pravím tlačítkem a kliknout na Run Batch File. Tím spustíme test i s logováním do html.
+Toto funguje pod MSTest, Nunit a xUnit.
