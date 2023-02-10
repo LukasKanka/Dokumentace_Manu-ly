@@ -34,7 +34,7 @@ dotnet new nunit
 dotnet new nunit -n MyNUnitProject  ---> vytvoří novou složku s projektem název je možno upravit
 
 
-Nunit3TestAdapter  ---> nutné také stáhnout
+dotnet add package Nunit3TestAdapter  ---> nutné také stáhnout
 
 dotnet add package Selenium.WebDriver - stahne knihovny selenium přejít do složky projektu
 
