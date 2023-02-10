@@ -1,11 +1,23 @@
 **Špouštěč testů do VS Code**
 
+Pod Windows:
+
 Vytvoříme soubor bash.bat
 
 Do něj vložíme:
 
 @echo off
 dotnet test --logger:"html;LogFilePath=testresults.html;"
+
+Pod Linux:
+
+Vytvořte nový textový soubor s příponou .sh.
+Do souboru vložte následující příkaz:
+bash
+Copy code
+#!/bin/bash
+dotnet test --logger:"html;LogFilePath=testresults.html"
+Uložte soubor a nastavte oprávnění pro spuštění (např. chmod +x název_souboru.sh).
 
 Tento soubor script bude spouštět testy a uloží výsledek do složky TestResults v kořenovém adresáři v html.
 
