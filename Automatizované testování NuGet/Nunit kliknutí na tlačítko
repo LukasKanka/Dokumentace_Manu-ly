@@ -1,0 +1,13 @@
+IWebElement tlacitko = driver.FindElement(By.XPath("xpath tlačítka"));
+            tlacitko.Click();
+            
+ By.Xpath můžeme nahradit třeba By.Name nebo By.Id.      
+ 
+ Příklad v praxi:
+ 
+  [Test]
+    public void Test1()
+    {
+        // odsouhlasení pravidel
+        IWebElement cookies = driver.FindElement(By.XPath("//button[@id='didomi-notice-agree-button']/span"));
+            cookies.Click();
