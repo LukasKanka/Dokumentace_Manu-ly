@@ -36,6 +36,8 @@ dotnet new nunit -n MyNUnitProject  ---> vytvoří novou složku s projektem ná
 
 dotnet add package Nunit3TestAdapter  ---> nutné také stáhnout
 
+dotnet add package NUnit.ConsoleRunner --> GitHub Actions
+
 dotnet add package Selenium.WebDriver - stahne knihovny selenium přejít do složky projektu
 
 Tento návod funguje jak pod Linux (odzkoušené v distribucích EndeavorOS, Ubuntu 22.04), MacOS, Windows 11.
