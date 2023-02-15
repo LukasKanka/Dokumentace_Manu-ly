@@ -27,8 +27,6 @@ Založení nového projektu ve Visual Studio Code:
 
 dotnet new mstest -n MyTestProject 
 
-MSTset2 nainstalujeme:
-
 dotnet add package Microsoft.NET.Test.Sdk
 
 dotnet add package MSTest.TestFramework
